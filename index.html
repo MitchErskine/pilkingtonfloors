@@ -4,124 +4,107 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Pilkington Floors Ltd | Flooring Portfolio</title>
-  <meta name="description" content="Pilkington Floors Ltd — quality flooring installations. View our portfolio and get in touch." />
+  <meta name="description" content="Hardwood, LVT and laminate flooring. View our recent work and get in touch for a quote." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#top" aria-label="Pilkington Floors Ltd home">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <span class="brand-text">Pilkington Floors Ltd</span>
-      </a>
+      <a class="brand" href="#top">Pilkington Floors Ltd</a>
 
-      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="hamburger" aria-hidden="true"></span>
-      </button>
-
-      <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <nav class="nav">
+        <a class="nav-meta" href="mailto:info@pilkingtonfloors.co.uk">✉️ info@pilkingtonfloors.co.uk</a>
         <a href="#work">Work</a>
         <a href="#services">Services</a>
         <a href="#about">About</a>
-        <a class="btn btn-small" href="#contact">Contact</a>
+        <a class="btn btn-small" href="#contact">Get a quote</a>
       </nav>
+
     </div>
   </header>
 
-  <main id="main">
+  <main id="top">
     <!-- HERO -->
-    <section id="top" class="hero">
+    <section class="hero">
       <div class="container hero-inner">
-        <div class="hero-card">
-            <div class="logo-wrap">
-                <img class="logo" src="assets/logo.jpg" alt="Pilkington Floors Ltd logo" />
-            </div>
-
-          <p class="kicker">Quality flooring, fitted with pride</p>
-          <h1>Beautiful finishes for homes &amp; businesses.</h1>
+        <div class="hero-copy">
+          <p class="eyebrow">Flooring specialists</p>
+          <h1>Make your home feel finished with a floor you’ll love.</h1>
           <p class="lead">
-            Browse recent installations and get a fast quote. Reliable, tidy, and detail-driven from start to finish.
+            Hardwood, laminate and LVT fitted with care — clean lines, tidy work, and a durable finish.
           </p>
 
           <div class="hero-actions">
             <a class="btn" href="#work">View portfolio</a>
-            <a class="btn btn-ghost" href="#contact">Get a quote</a>
+            <a class="btn btn-ghost" href="#contact">Request a quote</a>
           </div>
 
-          <ul class="hero-highlights">
-            <li><span class="dot"></span> LVT • Laminate • Hardwood</li>
-            <li><span class="dot"></span> Subfloor prep &amp; levelling</li>
-            <li><span class="dot"></span> Residential &amp; commercial</li>
-          </ul>
+        <div class="hero-media">
+          <!-- Replace with your strongest “hero” install photo -->
+          <div class="media-card">
+            <img src="assets/projects/hero.jpg" alt="Featured flooring installation" loading="eager" />
+          </div>
         </div>
-
-        <aside class="hero-aside">
-          <div class="aside-card">
-            <h2>Quick contact</h2>
-            <p class="muted">
-              Add your phone/email below and you’re live.
-            </p>
-
-            <div class="contact-chips">
-              <a class="chip" href="tel:+44XXXXXXXXXX">📞 +44 XXXXX XXXXXX</a>
-              <a class="chip" href="mailto:info@pilkingtonfloors.co.uk">✉️ info@pilkingtonfloors.co.uk</a>
-            </div>
-
-            <div class="rule"></div>
-
-            <p class="small muted">
-              Serving: <strong>Your Area Here</strong><br />
-              Hours: <strong>Mon–Sat</strong>
-            </p>
-          </div>
-        </aside>
       </div>
     </section>
 
-    <!-- WORK / PORTFOLIO -->
+    <!-- WORK -->
     <section id="work" class="section">
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">Portfolio</p>
-          <h2>Recent work</h2>
-          <p class="muted">Replace the placeholder images in <code>assets/projects/</code> with real photos.</p>
+          <h2>Recent installs</h2>
+          <p class="muted">Keep it curated: 8–16 strong photos beats 60 average ones.</p>
         </div>
 
-        <div class="gallery">
+        <div class="grid">
           <!-- Duplicate these cards as needed -->
-          <figure class="card">
-            <img src="assets/projects/project-01.jpg" alt="Luxury vinyl tile installation in a modern kitchen" loading="lazy" />
+          <figure class="work-card">
+            <img src="assets/projects/project-01.jpg" alt="LVT installation in kitchen" loading="lazy" />
             <figcaption>
               <strong>LVT kitchen</strong>
-              <span class="muted">Subfloor prep + clean finish</span>
+              <span class="muted">Subfloor prep + clean trims</span>
             </figcaption>
           </figure>
 
-          <figure class="card">
-            <img src="assets/projects/project-02.jpg" alt="Laminate flooring in a living room" loading="lazy" />
+          <figure class="work-card">
+            <img src="assets/projects/project-02.jpg" alt="Laminate flooring in living room" loading="lazy" />
             <figcaption>
               <strong>Laminate lounge</strong>
-              <span class="muted">Skirting &amp; trim details</span>
+              <span class="muted">Tight joins, tidy finish</span>
             </figcaption>
           </figure>
 
-          <figure class="card">
-            <img src="assets/projects/project-03.jpg" alt="Herringbone style flooring in a hallway" loading="lazy" />
+          <figure class="work-card">
+            <img src="assets/projects/project-03.jpg" alt="Herringbone hallway flooring" loading="lazy" />
             <figcaption>
-              <strong>Herringbone hallway</strong>
-              <span class="muted">Straight lines, tight joins</span>
+              <strong>Herringbone hall</strong>
+              <span class="muted">Straight lines, crisp edges</span>
             </figcaption>
           </figure>
 
-          <figure class="card">
-            <img src="assets/projects/project-04.jpg" alt="Commercial flooring installation" loading="lazy" />
+          <figure class="work-card">
+            <img src="assets/projects/project-04.jpg" alt="Hardwood flooring in open-plan room" loading="lazy" />
             <figcaption>
-              <strong>Commercial fit</strong>
-              <span class="muted">Durable, high-traffic finish</span>
+              <strong>Hardwood</strong>
+              <span class="muted">Warm tone, durable finish</span>
+            </figcaption>
+          </figure>
+
+          <figure class="work-card">
+            <img src="assets/projects/project-05.jpg" alt="Staircase flooring detail" loading="lazy" />
+            <figcaption>
+              <strong>Stairs & details</strong>
+              <span class="muted">Nosings, transitions, trims</span>
+            </figcaption>
+          </figure>
+
+          <figure class="work-card">
+            <img src="assets/projects/project-06.jpg" alt="Commercial flooring installation" loading="lazy" />
+            <figcaption>
+              <strong>Commercial</strong>
+              <span class="muted">Hard-wearing, high traffic</span>
             </figcaption>
           </figure>
         </div>
@@ -136,18 +119,18 @@
           <h2>What we do</h2>
         </div>
 
-        <div class="grid-3">
-          <div class="panel">
-            <h3>Supply &amp; fit</h3>
-            <p class="muted">Advice on materials, underlay, trims and finishes to match your space and budget.</p>
+        <div class="cards">
+          <div class="card">
+            <h3>Hardwood</h3>
+            <p class="muted">Solid & engineered installs with careful finishing and clean edges.</p>
           </div>
-          <div class="panel">
+          <div class="card">
+            <h3>LVT & laminate</h3>
+            <p class="muted">Durable, modern options installed flat with crisp transitions.</p>
+          </div>
+          <div class="card">
             <h3>Subfloor prep</h3>
-            <p class="muted">Levelling, screeding and moisture checks — the part that makes the floor last.</p>
-          </div>
-          <div class="panel">
-            <h3>Repairs &amp; refresh</h3>
-            <p class="muted">Replace damaged sections, tidy thresholds, improve transitions and edging.</p>
+            <p class="muted">Levelling & preparation so the floor lasts and feels right underfoot.</p>
           </div>
         </div>
       </div>
@@ -155,98 +138,88 @@
 
     <!-- ABOUT -->
     <section id="about" class="section">
-      <div class="container two-col">
+      <div class="container about">
         <div>
           <p class="eyebrow">About</p>
-          <h2>Detail matters</h2>
+          <h2>Clean workmanship. Straightforward quoting.</h2>
           <p class="muted">
-            Add a short story here about the company — how long you’ve been fitting, what you’re known for,
-            and why customers trust you.
+Pilkington Floors Ltd is a North West–based flooring company specialising in high-quality installations and expert floor preparation. We work closely with homeowners and businesses to deliver durable, well-finished floors that look right and last.
+From careful subfloor preparation to the final details, we take pride in tidy workmanship, clear communication, and a straightforward approach from start to finish.
           </p>
-
-          <ul class="ticks">
-            <li>Friendly, no-pressure quoting</li>
-            <li>Clean, careful workmanship</li>
-            <li>Clear timelines &amp; tidy finish</li>
-          </ul>
-        </div>
 
         <div class="quote">
-          <p>
-            “Absolutely brilliant job — on time, spotless, and the finish is perfect.”
-          </p>
-          <span class="muted">— Customer testimonial (add real ones!)</span>
+          <p>“On time, spotless, and the finish is perfect.”</p>
+          <span class="muted">— Customer review</span>
         </div>
       </div>
     </section>
 
     <!-- CONTACT -->
+    <section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Instagram</p>
+      <h2>More recent work</h2>
+      <p class="muted">
+        Follow us on Instagram for daily installs and behind-the-scenes.
+      </p>
+    </div>
+
+    <a class="btn insta-btn"
+      href="https://instagram.com/pilkington_floors"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Visit Pilkington Floors on Instagram">
+      <svg class="insta-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2a3 3 0 013 3v10a3 3 0 01-3 3H7a3 3 0 01-3-3V7a3 3 0 013-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm4.75-.25a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0z"/>
+      </svg>
+      <span>Instagram</span>
+    </a>
+
+
+
+
+
+
+
     <section id="contact" class="section section-alt">
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">Contact</p>
           <h2>Get a quote</h2>
-          <p class="muted">
-            On a static site, the easiest options are:
-            <strong>(1)</strong> email button (works instantly) or
-            <strong>(2)</strong> Formspree (free form handling).
-          </p>
+          <p class="muted">Describe the job and include your postcode — we’ll come back to you quickly.</p>
         </div>
 
-        <div class="contact-grid">
-          <div class="panel">
-            <h3>Email us</h3>
-            <p class="muted">Tap below to open your email client.</p>
-            <a class="btn" href="mailto:info@pilkingtonfloors.co.uk?subject=Quote%20request%20-%20Pilkington%20Floors">
-              Email for a quote
+        <div class="contact">
+          <div class="contact-card">
+            <h3>Direct</h3>
+            <p class="muted">Fastest route: email or call.</p>
+            <div class="contact-links">
+              <a class="btn" href="mailto:info@pilkingtonfloors.co.uk?subject=Quote%20request%20-%20Pilkington%20Floors">Email</a>
+              <a class="btn btn-ghost" href="tel:+44XXXXXXXXXX">Call</a>
+            </div>
+            <p class="small muted">Or add Formspree later if you want a web form.</p>
+          </div>
+
+          <!-- <div class="contact-card">
+            <h3>Instagram</h3>
+            <p class="muted">See more recent installs and behind-the-scenes.</p>
+            <a class="btn btn-ghost" href="https://instagram.com/YOURHANDLE" target="_blank" rel="noreferrer">
+              Visit Instagram →
             </a>
-
-            <div class="rule"></div>
-
-            <p class="small muted">
-              Prefer phone? Update the number in the hero and here:
-              <a href="tel:+44XXXXXXXXXX">+44 XXXXX XXXXXX</a>
-            </p>
+            <p class="small muted">Keep the website curated; use Instagram for “fresh”.</p>
           </div>
+        </div> -->
 
-          <div class="panel">
-            <h3>Form (optional)</h3>
-            <p class="muted">
-              If you want a working form on GitHub Pages, create a Formspree endpoint and paste it into <code>action</code>.
-            </p>
-
-            <form class="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-              <label>
-                Name
-                <input name="name" autocomplete="name" required />
-              </label>
-
-              <label>
-                Email
-                <input type="email" name="email" autocomplete="email" required />
-              </label>
-
-              <label>
-                Message
-                <textarea name="message" rows="5" required placeholder="Tell us what you need, and your postcode."></textarea>
-              </label>
-
-              <button class="btn" type="submit">Send message</button>
-              <p class="small muted">Replace <code>YOUR_FORM_ID</code> to activate.</p>
-            </form>
-          </div>
-        </div>
+        <footer class="footer">
+          <span class="muted small">© <span id="year"></span> Pilkington Floors Ltd</span>
+        </footer>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p class="muted small">© <span id="year"></span> Pilkington Floors Ltd. All rights reserved.</p>
-      <a class="to-top" href="#top">Back to top ↑</a>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
