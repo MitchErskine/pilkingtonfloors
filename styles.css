@@ -53,13 +53,14 @@ body{
 }
 
 .brand{
-  text-decoration:none;
+  text-decoration: none;
   color: var(--text);
-  font-family: ui-serif, Georgia, serif;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  font-size: 13px;
+  font-family: ui-serif, Georgia, serif; /* SAME as headings */
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.02em;   /* subtle, not shouty */
 }
+
 
 .nav{
   display:flex;
