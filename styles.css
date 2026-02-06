@@ -1,24 +1,30 @@
 :root{
-  /* Layout */
   --max: 1400px;
 
-  /* Colours */
-  --bg: #182030;
-  --bg-2: #121928;
-  --text: #F4F1EA;
-  --muted: rgba(244,241,234,.75);
-  --gold: #B8B08A;
-  --gold-soft: rgba(184,176,138,.25);
+  --bg: #F6F1E7;      /* warm ivory */
+  --bg-2: #EFE7D8;    /* slightly deeper ivory */
+  --text: #141824;    /* charcoal */
+  --muted: rgba(20,24,36,.72);
 
-  /* Surfaces */
-  --card: rgba(255,255,255,.04);
-  --card-2: rgba(255,255,255,.06);
-  --border: rgba(184,176,138,.20);
+  --gold: #B8B08A; 
+  --gold-soft: rgba(184,176,138,.22);
 
-  /* Effects */
-  --shadow: 0 18px 40px rgba(0,0,0,.35);
+  --card: rgba(20,24,36,.04);
+  --card-2: rgba(20,24,36,.06);
+  --border: rgba(20,24,36,.12);
+
+  --shadow: 0 18px 40px rgba(0,0,0,.10);
   --radius: 18px;
 }
+
+body{
+  background:
+    radial-gradient(900px 500px at 20% 0%, rgba(184,176,138,.18), transparent 55%),
+    radial-gradient(700px 450px at 85% 10%, rgba(20,24,36,.06), transparent 60%),
+    linear-gradient(180deg, var(--bg), var(--bg-2));
+  color: var(--text);
+}
+
 
 *{ box-sizing: border-box; }
 
@@ -265,3 +271,5 @@ h1{
     font-size: 30px;
   }
 }
+
+.btn-ghost{ border-color: rgba(20,24,36,.18); color: var(--text); }
