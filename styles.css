@@ -95,11 +95,15 @@ body{
   padding: 64px 0 26px;
 }
 .hero-inner{
-  display:grid;
-  grid-template-columns: 1.05fr .95fr;
-  gap: 28px;
-  align-items:center;
+  display: grid;
+  grid-template-columns: 1fr;   /* single column */
+  gap: 22px;
 }
+
+.hero-copy{
+  max-width: 900px;            /* keeps text readable */
+}
+
 
 .eyebrow{
   margin:0 0 10px;
