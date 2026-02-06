@@ -341,3 +341,8 @@ h1{
     gap: 6px;
   }
 }
+
+.contact{
+  grid-template-columns: 1fr;
+}
+
