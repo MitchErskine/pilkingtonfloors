@@ -10,7 +10,7 @@
   --border: rgba(184,176,138,.20);
   --shadow: 0 18px 40px rgba(0,0,0,.35);
   --radius: 18px;
-  --max: 1100px;
+  --max: 1300px;
 }
 
 *{ box-sizing: border-box; }
@@ -25,7 +25,7 @@ body{
 }
 
 .container{
-  width: min(var(--max), calc(100% - 40px));
+  width: min(var(--max), calc(100% - 24px));
   margin: 0 auto;
 }
 
