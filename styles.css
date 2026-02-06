@@ -32,15 +32,6 @@ html{
   scroll-behavior: smooth;
 }
 
-body{
-  margin: 0;
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
-  color: var(--text);
-  background:
-    radial-gradient(1200px 700px at 20% 0%, rgba(184,176,138,.10), transparent 50%),
-    radial-gradient(900px 500px at 80% 15%, rgba(184,176,138,.08), transparent 55%),
-    linear-gradient(180deg, var(--bg), var(--bg-2));
-}
 
 /* ---------- Layout ---------- */
 
