@@ -1,250 +1,433 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Pilkington Floors Ltd | Flooring Portfolio</title>
-  <meta name="description" content="Pilkington Floors Ltd — quality flooring installations. View our portfolio and get in touch." />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pilkington Floors | Quality Flooring Installation &amp; Renovation</title>
+  <meta name="description" content="Pilkington Floors specialises in Amtico, hardwood, laminate, vinyl, carpet, and commercial flooring installation. Quality craftsmanship and expert fitting for homes and businesses.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pilkington Floors | Quality Flooring Installation &amp; Renovation">
+  <meta property="og:description" content="Pilkington Floors specialises in Amtico, hardwood, laminate, vinyl, carpet, and commercial flooring installation. Quality craftsmanship and expert fitting for homes and businesses.">
+  <meta property="og:image" content="images/logo.png">
+  <meta property="og:url" content="index.html">
+  <meta property="og:type" content="website">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Pilkington Floors",
+    "description": "Residential and commercial flooring specialists. Amtico approved installer offering hardwood, laminate, vinyl, carpet, and commercial flooring services.",
+    "url": "https://pilkingtonfloors.github.io",
+    "image": "images/logo.png",
+    "telephone": "+44-7000-000000",
+    "email": "info@pilkingtonfloors.co.uk",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Manchester",
+      "addressRegion": "Greater Manchester",
+      "addressCountry": "GB"
+    },
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "53.4808",
+        "longitude": "-2.2426"
+      },
+      "geoRadius": "50000"
+    },
+    "serviceType": [
+      "Amtico flooring",
+      "Hardwood flooring",
+      "Laminate flooring",
+      "Vinyl flooring",
+      "Carpet fitting",
+      "Commercial flooring"
+    ],
+    "sameAs": [
+      "https://www.instagram.com/pilkington_floors/"
+    ]
+  }
+  </script>
 </head>
-
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#top" aria-label="Pilkington Floors Ltd home">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <span class="brand-text">Pilkington Floors Ltd</span>
-      </a>
+  <!-- Skip Navigation -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="hamburger" aria-hidden="true"></span>
-      </button>
+  <!-- Sticky Header -->
+  <header class="site-header" role="banner">
+    <div class="container">
 
-      <nav id="site-nav" class="site-nav" aria-label="Primary">
-        <a href="#work">Work</a>
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a class="btn btn-small" href="#contact">Contact</a>
+
+      <nav class="site-header__nav" role="navigation" aria-label="Main navigation">
+        <ul class="site-header__nav-list">
+          <li><a href="index.html" class="site-header__nav-link active">Home</a></li>
+          <li><a href="about.html" class="site-header__nav-link">About Us</a></li>
+          <li><a href="services.html" class="site-header__nav-link">Services</a></li>
+          <li><a href="portfolio.html" class="site-header__nav-link">Portfolio</a></li>
+          <li><a href="testimonials.html" class="site-header__nav-link">Testimonials</a></li>
+          <li><a href="blog.html" class="site-header__nav-link">Blog</a></li>
+          <li><a href="contact.html" class="site-header__nav-link">Contact</a></li>
+        </ul>
+        <a href="contact.html#quote-form" class="btn btn--primary site-header__cta">Get a Free Quote</a>
       </nav>
+
+
+      <button class="hamburger" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
     </div>
   </header>
 
-  <main id="main">
-    <!-- HERO -->
-    <section id="top" class="hero">
-      <div class="container hero-inner">
-        <div class="hero-card">
-          <img class="logo" src="assets/logo.jpg" alt="Pilkington Floors Ltd logo" />
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay" aria-hidden="true"></div>
 
-          <p class="kicker">Quality flooring, fitted with pride</p>
-          <h1>Beautiful finishes for homes &amp; businesses.</h1>
-          <p class="lead">
-            Browse recent installations and get a fast quote. Reliable, tidy, and detail-driven from start to finish.
-          </p>
+  <!-- Main Content -->
+  <main id="main-content" role="main">
 
-          <div class="hero-actions">
-            <a class="btn" href="#work">View portfolio</a>
-            <a class="btn btn-ghost" href="#contact">Get a quote</a>
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: url('images/project-01.jpeg');" data-animate="fade-in">
+      <div class="container">
+        <div class="hero__content">
+          <img src="images/logo.png" alt="Pilkington Floors" class="hero__logo" width="280" height="84">
+          <h1 class="hero__title">Quality Flooring, Expertly Installed</h1>
+          <p class="hero__subtitle">Pilkington Floors specialises in Amtico and premium flooring solutions for homes and businesses. From elegant herringbone patterns to durable commercial installations, we deliver craftsmanship you can trust.</p>
+          <div class="hero__actions">
+            <a href="contact.html#quote-form" class="btn btn--primary btn--lg">Get a Free Quote</a>
+            <a href="portfolio.html" class="btn btn--white btn--lg">View Our Work</a>
           </div>
-
-          <ul class="hero-highlights">
-            <li><span class="dot"></span> LVT • Laminate • Hardwood</li>
-            <li><span class="dot"></span> Subfloor prep &amp; levelling</li>
-            <li><span class="dot"></span> Residential &amp; commercial</li>
-          </ul>
         </div>
+      </div>
+    </section>
 
-        <aside class="hero-aside">
-          <div class="aside-card">
-            <h2>Quick contact</h2>
-            <p class="muted">
-              Add your phone/email below and you’re live.
-            </p>
-
-            <div class="contact-chips">
-              <a class="chip" href="tel:+44XXXXXXXXXX">📞 +44 XXXXX XXXXXX</a>
-              <a class="chip" href="mailto:hello@pilkingtonfloors.co.uk">✉️ hello@pilkingtonfloors.co.uk</a>
+    <!-- Services Summary Section -->
+    <section class="section" data-animate="slide-up">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Services</h2>
+          <p>From designer flooring to hygienic finishes, we provide expert installation tailored to your space.</p>
+        </div>
+        <div class="grid grid--3" data-animate-stagger>
+          <!-- Designer Flooring -->
+          <a href="services.html" class="card">
+            <div class="card__body">
+              <div class="card__icon" aria-hidden="true">◆</div>
+              <h3 class="card__title">Designer Flooring</h3>
+              <p class="card__text">High-quality designer flooring that enhances the look and feel of a space while delivering durability for everyday use.</p>
+              <span class="card__tag">Premium</span>
             </div>
-
-            <div class="rule"></div>
-
-            <p class="small muted">
-              Serving: <strong>Your Area Here</strong><br />
-              Hours: <strong>Mon–Sat</strong>
-            </p>
-          </div>
-        </aside>
+          </a>
+          <!-- LVT Flooring -->
+          <a href="services.html" class="card">
+            <div class="card__body">
+              <div class="card__icon" aria-hidden="true">◈</div>
+              <h3 class="card__title">LVT Flooring</h3>
+              <p class="card__text">Stylish, hard-wearing luxury vinyl tile flooring suitable for a wide range of commercial and domestic environments.</p>
+              <span class="card__tag">Versatile</span>
+            </div>
+          </a>
+          <!-- Sheet Vinyl -->
+          <a href="services.html" class="card">
+            <div class="card__body">
+              <div class="card__icon" aria-hidden="true">▦</div>
+              <h3 class="card__title">Sheet Vinyl</h3>
+              <p class="card__text">Fully adhered sheet vinyl flooring for a smooth, durable, and easy-to-maintain surface in demanding environments.</p>
+              <span class="card__tag">Practical</span>
+            </div>
+          </a>
+          <!-- Hygienic Flooring -->
+          <a href="services.html" class="card">
+            <div class="card__body">
+              <div class="card__icon" aria-hidden="true">✦</div>
+              <h3 class="card__title">Hygienic Flooring</h3>
+              <p class="card__text">Seamless sheet vinyl with cove forming and capping for areas that require easy-to-clean, hygienic finishes.</p>
+              <span class="card__tag">Specialist</span>
+            </div>
+          </a>
+          <!-- Supply & Installation -->
+          <a href="services.html" class="card">
+            <div class="card__body">
+              <div class="card__icon" aria-hidden="true">🔧</div>
+              <h3 class="card__title">Supply &amp; Installation</h3>
+              <p class="card__text">A complete service from choosing the right flooring through to final installation and finishing details.</p>
+              <span class="card__tag">Full Service</span>
+            </div>
+          </a>
+        </div>
       </div>
     </section>
 
-    <!-- WORK / PORTFOLIO -->
-    <section id="work" class="section">
+    <!-- Featured Portfolio Section -->
+    <section class="section section--alt" data-animate="slide-up">
       <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Portfolio</p>
-          <h2>Recent work</h2>
-          <p class="muted">Replace the placeholder images in <code>assets/projects/</code> with real photos.</p>
+        <div class="section-header">
+          <h2>Featured Projects</h2>
+          <p>Browse a selection of our recent flooring installations. Every project is completed to the highest standard.</p>
         </div>
-
-        <div class="gallery">
-          <!-- Duplicate these cards as needed -->
-          <figure class="card">
-            <img src="assets/projects/project-01.jpg" alt="Luxury vinyl tile installation in a modern kitchen" loading="lazy" />
-            <figcaption>
-              <strong>LVT kitchen</strong>
-              <span class="muted">Subfloor prep + clean finish</span>
-            </figcaption>
-          </figure>
-
-          <figure class="card">
-            <img src="assets/projects/project-02.jpg" alt="Laminate flooring in a living room" loading="lazy" />
-            <figcaption>
-              <strong>Laminate lounge</strong>
-              <span class="muted">Skirting &amp; trim details</span>
-            </figcaption>
-          </figure>
-
-          <figure class="card">
-            <img src="assets/projects/project-03.jpg" alt="Herringbone style flooring in a hallway" loading="lazy" />
-            <figcaption>
-              <strong>Herringbone hallway</strong>
-              <span class="muted">Straight lines, tight joins</span>
-            </figcaption>
-          </figure>
-
-          <figure class="card">
-            <img src="assets/projects/project-04.jpg" alt="Commercial flooring installation" loading="lazy" />
-            <figcaption>
-              <strong>Commercial fit</strong>
-              <span class="muted">Durable, high-traffic finish</span>
-            </figcaption>
-          </figure>
+        <div class="gallery-grid" data-animate-stagger>
+          <div class="gallery-item">
+            <img src="images/project-02.jpeg" alt="Completed Amtico herringbone flooring installation in a modern living room" loading="lazy" width="600" height="450">
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__title">Modern Living Room</span>
+              <span class="gallery-item__category">Amtico</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/project-03.jpeg" alt="Hardwood flooring fitted in an open-plan kitchen and dining area" loading="lazy" width="600" height="450">
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__title">Open-Plan Kitchen</span>
+              <span class="gallery-item__category">Hardwood</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/project-04.jpeg" alt="Luxury vinyl tile flooring in a contemporary hallway" loading="lazy" width="600" height="450">
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__title">Contemporary Hallway</span>
+              <span class="gallery-item__category">Vinyl</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/project-05.jpeg" alt="Commercial flooring installation in a retail space" loading="lazy" width="600" height="450">
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__title">Retail Space</span>
+              <span class="gallery-item__category">Commercial</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/project-06.jpeg" alt="Laminate flooring fitted in a bright bedroom" loading="lazy" width="600" height="450">
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__title">Bright Bedroom</span>
+              <span class="gallery-item__category">Laminate</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/project-07.jpeg" alt="Amtico flooring with decorative border in a dining room" loading="lazy" width="600" height="450">
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__title">Dining Room</span>
+              <span class="gallery-item__category">Amtico</span>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-xl">
+          <a href="portfolio.html" class="btn btn--secondary">View Full Portfolio</a>
         </div>
       </div>
     </section>
 
-    <!-- SERVICES -->
-    <section id="services" class="section section-alt">
+    <!-- Before/After Slider Section -->
+    <section class="section" data-animate="slide-up">
       <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Services</p>
-          <h2>What we do</h2>
+        <div class="section-header">
+          <h2>See the Transformation</h2>
+          <p>Drag the slider to compare before and after — the difference quality flooring makes.</p>
         </div>
-
-        <div class="grid-3">
-          <div class="panel">
-            <h3>Supply &amp; fit</h3>
-            <p class="muted">Advice on materials, underlay, trims and finishes to match your space and budget.</p>
-          </div>
-          <div class="panel">
-            <h3>Subfloor prep</h3>
-            <p class="muted">Levelling, screeding and moisture checks — the part that makes the floor last.</p>
-          </div>
-          <div class="panel">
-            <h3>Repairs &amp; refresh</h3>
-            <p class="muted">Replace damaged sections, tidy thresholds, improve transitions and edging.</p>
-          </div>
+        <div class="before-after-slider" data-before-after style="max-width: 800px; margin: 0 auto;">
+          <img src="images/before.jpeg" alt="Room before flooring installation" class="before-img" loading="lazy">
+          <img src="images/after.jpeg" alt="Same room after professional flooring installation" class="after-img" loading="lazy">
+          <div class="slider-handle" aria-label="Drag to compare before and after"></div>
+          <span class="label-before">Before</span>
+          <span class="label-after">After</span>
         </div>
       </div>
     </section>
 
-    <!-- ABOUT -->
-    <section id="about" class="section">
-      <div class="container two-col">
-        <div>
-          <p class="eyebrow">About</p>
-          <h2>Detail matters</h2>
-          <p class="muted">
-            Add a short story here about the company — how long you’ve been fitting, what you’re known for,
-            and why customers trust you.
-          </p>
-
-          <ul class="ticks">
-            <li>Friendly, no-pressure quoting</li>
-            <li>Clean, careful workmanship</li>
-            <li>Clear timelines &amp; tidy finish</li>
-          </ul>
-        </div>
-
-        <div class="quote">
-          <p>
-            “Absolutely brilliant job — on time, spotless, and the finish is perfect.”
-          </p>
-          <span class="muted">— Customer testimonial (add real ones!)</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section section-alt">
+    <!-- Trust Indicators Section -->
+    <section class="section section--dark" data-animate="slide-up">
       <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Contact</p>
-          <h2>Get a quote</h2>
-          <p class="muted">
-            On a static site, the easiest options are:
-            <strong>(1)</strong> email button (works instantly) or
-            <strong>(2)</strong> Formspree (free form handling).
-          </p>
+        <div class="section-header">
+          <h2>Why Choose Pilkington Floors</h2>
+          <p>Numbers that speak for themselves — trusted by homeowners and businesses across the region.</p>
         </div>
-
-        <div class="contact-grid">
-          <div class="panel">
-            <h3>Email us</h3>
-            <p class="muted">Tap below to open your email client.</p>
-            <a class="btn" href="mailto:hello@pilkingtonfloors.co.uk?subject=Quote%20request%20-%20Pilkington%20Floors">
-              Email for a quote
-            </a>
-
-            <div class="rule"></div>
-
-            <p class="small muted">
-              Prefer phone? Update the number in the hero and here:
-              <a href="tel:+44XXXXXXXXXX">+44 XXXXX XXXXXX</a>
-            </p>
+        <div class="stats-grid" data-animate-stagger>
+          <div class="stat-item">
+            <span class="stat-number">15+</span>
+            <span class="stat-label">Years of Experience</span>
           </div>
-
-          <div class="panel">
-            <h3>Form (optional)</h3>
-            <p class="muted">
-              If you want a working form on GitHub Pages, create a Formspree endpoint and paste it into <code>action</code>.
-            </p>
-
-            <form class="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-              <label>
-                Name
-                <input name="name" autocomplete="name" required />
-              </label>
-
-              <label>
-                Email
-                <input type="email" name="email" autocomplete="email" required />
-              </label>
-
-              <label>
-                Message
-                <textarea name="message" rows="5" required placeholder="Tell us what you need, and your postcode."></textarea>
-              </label>
-
-              <button class="btn" type="submit">Send message</button>
-              <p class="small muted">Replace <code>YOUR_FORM_ID</code> to activate.</p>
-            </form>
+          <div class="stat-item">
+            <span class="stat-number">500+</span>
+            <span class="stat-label">Completed Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">450+</span>
+            <span class="stat-label">Happy Customers</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Industry Certifications</span>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Testimonials Section -->
+    <section class="section section--alt" data-animate="slide-up">
+      <div class="container">
+        <div class="section-header">
+          <h2>What Our Customers Say</h2>
+          <p>Real feedback from homeowners and businesses who trusted us with their flooring.</p>
+        </div>
+        <div class="grid grid--3" data-animate-stagger>
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+            </div>
+            <p class="testimonial-card__text">"We used Pilkington Flooring after a recommendation from friends. Overall I could not be more pleased with the quality of work — our kitchen area, hallway and front room have been transformed. Matthew was friendly and helpful in explaining the different samples and options available. Would highly recommend."</p>
+            <p class="testimonial-card__author">Lee M.</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+            </div>
+            <p class="testimonial-card__text">"Brilliant job completed by Pilkington Floors from start to finish — showed us multiple samples and helped us choose the best options for our new build. Competitively priced and professional service throughout. Made up with the high quality installation of hard flooring downstairs and carpets upstairs. Friendly and trustworthy company, would highly recommend."</p>
+            <p class="testimonial-card__author">Chris G.</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+            </div>
+            <p class="testimonial-card__text">"We have an old Victorian house that is being restored. Matt has helped us by laying down a traditional floor which flows through two rooms and the hall. Both Matt and Tom were always available, on time, polite and professional. They provided loads of samples to choose from and guided us to a design that looks superb. I can highly recommend!"</p>
+            <p class="testimonial-card__author">Mitch E.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" data-animate="slide-up">
+      <div class="container">
+        <div class="section-header">
+          <h2>Frequently Asked Questions</h2>
+          <p>Got questions about our flooring services? Here are answers to the most common ones.</p>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1">
+              <span>What types of flooring do you install?</span>
+              <span class="faq-question__icon" aria-hidden="true">▼</span>
+            </button>
+            <div class="faq-answer" id="faq-answer-1">
+              <p>We install a wide range of flooring types including Amtico luxury vinyl tiles, solid and engineered hardwood, laminate, vinyl, carpet, and commercial flooring. As approved Amtico installers, we specialise in creating stunning designs with their premium range.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2">
+              <span>How long does a typical flooring installation take?</span>
+              <span class="faq-question__icon" aria-hidden="true">▼</span>
+            </button>
+            <div class="faq-answer" id="faq-answer-2">
+              <p>Most residential rooms can be completed in one to two days. Larger projects such as whole-house installations or commercial spaces typically take three to five days. We will provide a clear timeline during your free consultation.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3">
+              <span>Do you offer free quotes?</span>
+              <span class="faq-question__icon" aria-hidden="true">▼</span>
+            </button>
+            <div class="faq-answer" id="faq-answer-3">
+              <p>Yes, we offer completely free, no-obligation quotes. Simply fill in our online quote form or give us a call, and we will arrange a convenient time to visit your property, take measurements, and discuss your requirements.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-4">
+              <span>What is Amtico flooring and why is it popular?</span>
+              <span class="faq-question__icon" aria-hidden="true">▼</span>
+            </button>
+            <div class="faq-answer" id="faq-answer-4">
+              <p>Amtico is a premium luxury vinyl tile brand known for its realistic wood and stone designs, exceptional durability, and easy maintenance. It is waterproof, scratch-resistant, and comes with a long warranty, making it a popular choice for kitchens, hallways, and living areas.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-5">
+              <span>How should I care for my new flooring?</span>
+              <span class="faq-question__icon" aria-hidden="true">▼</span>
+            </button>
+            <div class="faq-answer" id="faq-answer-5">
+              <p>Care depends on the flooring type. For Amtico and vinyl, regular sweeping and occasional mopping with a pH-neutral cleaner is sufficient. Hardwood floors benefit from specialist wood cleaners and felt pads on furniture. We provide detailed aftercare advice with every installation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p class="muted small">© <span id="year"></span> Pilkington Floors Ltd. All rights reserved.</p>
-      <a class="to-top" href="#top">Back to top ↑</a>
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Pilkington Floors</h4>
+          <p>Quality flooring installation and renovation for homes and businesses. Amtico approved installers with over 15 years of experience.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/pilkington_floors/" target="_blank" rel="noopener noreferrer" aria-label="Follow Pilkington Floors on Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="services.html">Designer Flooring</a></li>
+            <li><a href="services.html">LVT Flooring</a></li>
+            <li><a href="services.html">Sheet Vinyl</a></li>
+            <li><a href="services.html">Hygienic Flooring</a></li>
+            <li><a href="services.html">Supply &amp; Installation</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul>
+            <li>Phone: 07000 000000</li>
+            <li>Email: info@pilkingtonfloors.co.uk</li>
+            <li>Serving Greater Manchester &amp; surrounding areas</li>
+          </ul>
+          <a href="contact.html#quote-form" class="btn btn--primary btn--sm mt-md">Get a Free Quote</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Pilkington Floors. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- Scripts -->
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/slider.js"></script>
+
 </body>
 </html>
