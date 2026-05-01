@@ -11,111 +11,228 @@
 export const projects = [
   {
     id: 1,
-    src: 'images/project-01.jpeg',
-    thumb: 'images/project-01.jpeg',
-    alt: 'Amtico herringbone flooring installation in a spacious living room',
-    category: ['amtico', 'residential'],
-    title: 'Herringbone Living Room',
-    description: 'Amtico Signature herringbone pattern in a modern living space.'
+    src: 'images/finished_project-01.jpeg',
+    thumb: 'images/finished_project-01.jpeg',
+    alt: 'Completed residential flooring installation',
+    category: ['residential'],
+    title: 'Residential Project',
+    description: 'Professional flooring installation by Pilkington Floors.'
   },
   {
     id: 2,
-    src: 'images/project-02.jpeg',
-    thumb: 'images/project-02.jpeg',
-    alt: 'Hardwood flooring fitted in an open-plan kitchen and dining area',
-    category: ['hardwood', 'residential'],
-    title: 'Open-Plan Kitchen',
-    description: 'Engineered oak hardwood throughout a bright kitchen-diner.'
+    src: 'images/finished_project-01-2.jpeg',
+    thumb: 'images/finished_project-01-2.jpeg',
+    alt: 'Residential flooring installation from another angle',
+    category: ['residential'],
+    title: 'Residential Project — Detail',
+    description: 'A second view of this quality installation.'
   },
   {
     id: 3,
-    src: 'images/project-03.jpeg',
-    thumb: 'images/project-03.jpeg',
-    alt: 'Laminate flooring in a contemporary hallway with natural light',
-    category: ['laminate', 'residential'],
-    title: 'Contemporary Hallway',
-    description: 'Durable laminate with a realistic wood-grain finish.'
+    src: 'images/finished_project-06.jpeg',
+    thumb: 'images/finished_project-06.jpeg',
+    alt: 'Finished flooring in a residential property',
+    category: ['residential'],
+    title: 'Residential Property',
+    description: 'Flooring completed to the highest standard.'
   },
   {
     id: 4,
-    src: 'images/project-04.jpeg',
-    thumb: 'images/project-04.jpeg',
-    alt: 'Luxury vinyl tile flooring in a modern bathroom',
-    category: ['vinyl', 'residential'],
-    title: 'Modern Bathroom',
-    description: 'Waterproof luxury vinyl tiles in a stone-effect design.'
+    src: 'images/finished_project-07.jpeg',
+    thumb: 'images/finished_project-07.jpeg',
+    alt: 'Quality flooring in a home interior',
+    category: ['residential'],
+    title: 'Home Interior',
+    description: 'Precision fitting for a flawless result.'
   },
   {
     id: 5,
-    src: 'images/project-05.jpeg',
-    thumb: 'images/project-05.jpeg',
-    alt: 'Commercial flooring installation in a busy retail space',
-    category: ['vinyl', 'commercial'],
-    title: 'Retail Space',
-    description: 'Hard-wearing commercial vinyl for high foot traffic.'
+    src: 'images/finished_project-08.jpeg',
+    thumb: 'images/finished_project-08.jpeg',
+    alt: 'Completed flooring renovation',
+    category: ['residential'],
+    title: 'Renovation Project',
+    description: 'Flooring renovation bringing new life to a space.'
   },
   {
     id: 6,
-    src: 'images/project-06.jpeg',
-    thumb: 'images/project-06.jpeg',
-    alt: 'Carpet fitting in a cosy bedroom with soft neutral tones',
-    category: ['carpet', 'residential'],
-    title: 'Cosy Bedroom',
-    description: 'Plush carpet in a warm neutral tone for ultimate comfort.'
+    src: 'images/finished_project-09.jpeg',
+    thumb: 'images/finished_project-09.jpeg',
+    alt: 'Finished flooring in a bright room',
+    category: ['residential'],
+    title: 'Bright Room',
+    description: 'Clean flooring enhancing a bright room.'
   },
   {
     id: 7,
-    src: 'images/project-07.jpeg',
-    thumb: 'images/project-07.jpeg',
-    alt: 'Amtico flooring with decorative border in a dining room',
-    category: ['amtico', 'residential'],
-    title: 'Dining Room Feature',
-    description: 'Amtico with a custom decorative border detail.'
+    src: 'images/finished_project-10.jpeg',
+    thumb: 'images/finished_project-10.jpeg',
+    alt: 'Professional flooring installation',
+    category: ['residential'],
+    title: 'Professional Finish',
+    description: 'Quality flooring with a professional finish.'
   },
   {
     id: 8,
-    src: 'images/project-08.jpeg',
-    thumb: 'images/project-08.jpeg',
-    alt: 'Hardwood flooring renovation in a period property hallway',
-    category: ['hardwood', 'residential'],
-    title: 'Period Property Hallway',
-    description: 'Restored hardwood flooring in a character-filled entrance.'
+    src: 'images/finished_project-11.jpeg',
+    thumb: 'images/finished_project-11.jpeg',
+    alt: 'Flooring in a contemporary space',
+    category: ['residential'],
+    title: 'Contemporary Space',
+    description: 'Contemporary flooring with a premium finish.'
   },
   {
     id: 9,
-    src: 'images/project-09.jpeg',
-    thumb: 'images/project-09.jpeg',
-    alt: 'Laminate flooring installed in a bright office space',
-    category: ['laminate', 'commercial'],
-    title: 'Office Refurbishment',
-    description: 'Commercial-grade laminate for a professional workspace.'
+    src: 'images/finished_project-12.jpeg',
+    thumb: 'images/finished_project-12.jpeg',
+    alt: 'Flooring showcasing attention to detail',
+    category: ['residential'],
+    title: 'Attention to Detail',
+    description: 'Attention to detail in every installation.'
   },
   {
     id: 10,
-    src: 'images/project-10.jpeg',
-    thumb: 'images/project-10.jpeg',
-    alt: 'Amtico luxury vinyl flooring in a stylish kitchen',
-    category: ['amtico', 'residential'],
-    title: 'Stylish Kitchen',
-    description: 'Amtico Form stone-effect tiles in a contemporary kitchen.'
+    src: 'images/finished_project-13.jpeg',
+    thumb: 'images/finished_project-13.jpeg',
+    alt: 'Flooring fitted throughout a property',
+    category: ['residential'],
+    title: 'Full Property',
+    description: 'Seamless flooring flowing through the property.'
   },
   {
     id: 11,
-    src: 'images/project-11.jpeg',
-    thumb: 'images/project-11.jpeg',
-    alt: 'Carpet tiles fitted in a commercial conference room',
-    category: ['carpet', 'commercial'],
-    title: 'Conference Room',
-    description: 'Carpet tiles in a modern commercial meeting space.'
+    src: 'images/finished_project-15.jpeg',
+    thumb: 'images/finished_project-15.jpeg',
+    alt: 'Finished flooring in a home',
+    category: ['residential'],
+    title: 'Home Installation',
+    description: 'Professional results for a happy homeowner.'
   },
   {
     id: 12,
-    src: 'images/project-12.jpeg',
-    thumb: 'images/project-12.jpeg',
-    alt: 'Vinyl plank flooring in an open-plan apartment living area',
-    category: ['vinyl', 'residential'],
-    title: 'Apartment Living Area',
-    description: 'Vinyl plank flooring with a warm oak finish throughout.'
+    src: 'images/finished_project-16.jpeg',
+    thumb: 'images/finished_project-16.jpeg',
+    alt: 'Stylish flooring installation',
+    category: ['residential'],
+    title: 'Stylish Interior',
+    description: 'Stylish flooring complementing the interior.'
+  },
+  {
+    id: 13,
+    src: 'images/finished_project-16-2.jpeg',
+    thumb: 'images/finished_project-16-2.jpeg',
+    alt: 'Stylish flooring installation from another angle',
+    category: ['residential'],
+    title: 'Stylish Interior — Detail',
+    description: 'A second view of this stylish installation.'
+  },
+  {
+    id: 14,
+    src: 'images/finished_project-19.jpeg',
+    thumb: 'images/finished_project-19.jpeg',
+    alt: 'Flooring in a family home',
+    category: ['residential'],
+    title: 'Family Home',
+    description: 'Durable flooring perfect for family life.'
+  },
+  {
+    id: 15,
+    src: 'images/finished_project-23.jpeg',
+    thumb: 'images/finished_project-23.jpeg',
+    alt: 'Flooring throughout a ground floor',
+    category: ['residential'],
+    title: 'Ground Floor',
+    description: 'Ground floor transformation with premium flooring.'
+  },
+  {
+    id: 16,
+    src: 'images/finished_project-24.jpeg',
+    thumb: 'images/finished_project-24.jpeg',
+    alt: 'Flooring in a new build property',
+    category: ['residential'],
+    title: 'New Build',
+    description: 'New build flooring installed to perfection.'
+  },
+  {
+    id: 17,
+    src: 'images/finished_project-24-1.jpeg',
+    thumb: 'images/finished_project-24-1.jpeg',
+    alt: 'New build flooring from another angle',
+    category: ['residential'],
+    title: 'New Build — Detail',
+    description: 'A second view of the new build installation.'
+  },
+  {
+    id: 18,
+    src: 'images/finished_project-26.jpeg',
+    thumb: 'images/finished_project-26.jpeg',
+    alt: 'Flooring with border detail',
+    category: ['residential'],
+    title: 'Border Detail',
+    description: 'Custom border detail creating a lasting impression.'
+  },
+  {
+    id: 19,
+    src: 'images/finished_project-island-T.jpeg',
+    thumb: 'images/finished_project-island-T.jpeg',
+    alt: 'Kitchen island flooring installation',
+    category: ['residential'],
+    title: 'Kitchen Island',
+    description: 'Flooring around a kitchen island with a seamless finish.'
+  },
+  {
+    id: 20,
+    src: 'images/finished_project-island-T-2.jpeg',
+    thumb: 'images/finished_project-island-T-2.jpeg',
+    alt: 'Kitchen island flooring from another angle',
+    category: ['residential'],
+    title: 'Kitchen Island — Detail',
+    description: 'A second view of the kitchen island flooring.'
+  },
+  {
+    id: 21,
+    src: 'images/finished_hall.jpeg',
+    thumb: 'images/finished_hall.jpeg',
+    alt: 'Finished hallway flooring',
+    category: ['residential'],
+    title: 'Hallway',
+    description: 'Beautiful hallway flooring creating a welcoming entrance.'
+  },
+  {
+    id: 22,
+    src: 'images/finished_project-staircase-grand.jpeg',
+    thumb: 'images/finished_project-staircase-grand.jpeg',
+    alt: 'Grand staircase flooring installation',
+    category: ['residential'],
+    title: 'Grand Staircase',
+    description: 'Stunning flooring on a grand staircase.'
+  },
+  {
+    id: 23,
+    src: 'images/finished_project-staircase-grand-bottom.jpeg',
+    thumb: 'images/finished_project-staircase-grand-bottom.jpeg',
+    alt: 'Grand staircase viewed from the bottom',
+    category: ['residential'],
+    title: 'Grand Staircase — Detail',
+    description: 'View from the base of the grand staircase.'
+  },
+  {
+    id: 24,
+    src: 'images/finished_project-stairs.jpeg',
+    thumb: 'images/finished_project-stairs.jpeg',
+    alt: 'Staircase flooring installation',
+    category: ['residential'],
+    title: 'Staircase',
+    description: 'Expert staircase flooring with a clean finish.'
+  },
+  {
+    id: 25,
+    src: 'images/finished_project-step.jpeg',
+    thumb: 'images/finished_project-step.jpeg',
+    alt: 'Step detail showing quality finish',
+    category: ['residential'],
+    title: 'Step Detail',
+    description: 'Close-up showing the quality of our step finishing.'
   }
 ];
 
@@ -124,14 +241,7 @@ export const projects = [
    ============================================================ */
 
 const FILTER_CATEGORIES = [
-  { label: 'All', value: 'all' },
-  { label: 'Hardwood', value: 'hardwood' },
-  { label: 'Laminate', value: 'laminate' },
-  { label: 'Vinyl', value: 'vinyl' },
-  { label: 'Amtico', value: 'amtico' },
-  { label: 'Carpet', value: 'carpet' },
-  { label: 'Commercial', value: 'commercial' },
-  { label: 'Residential', value: 'residential' }
+  { label: 'All', value: 'all' }
 ];
 
 /* ============================================================
@@ -191,6 +301,12 @@ export function initGallery() {
  */
 function renderFilterButtons(container) {
   container.innerHTML = '';
+
+  // Hide filter bar if there's only one category (or just "All")
+  if (FILTER_CATEGORIES.length <= 1) {
+    container.style.display = 'none';
+    return;
+  }
 
   FILTER_CATEGORIES.forEach(function (cat) {
     const btn = document.createElement('button');
