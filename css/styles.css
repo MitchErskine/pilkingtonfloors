@@ -1346,28 +1346,33 @@ small {
    Scroll Animations
    ---------------------------------------------------------- */
 [data-animate] {
-  opacity: 0;
-  transform: translateY(24px);
+  opacity: 1;
+  transform: none;
   transition: opacity var(--transition-slow), transform var(--transition-slow);
 }
 
-[data-animate="fade-in"] {
-  transform: translateY(0);
-}
-
-[data-animate="slide-up"] {
+.js-loaded [data-animate] {
+  opacity: 0;
   transform: translateY(24px);
 }
 
-[data-animate="slide-left"] {
+.js-loaded [data-animate="fade-in"] {
+  transform: translateY(0);
+}
+
+.js-loaded [data-animate="slide-up"] {
+  transform: translateY(24px);
+}
+
+.js-loaded [data-animate="slide-left"] {
   transform: translateX(-24px);
 }
 
-[data-animate="slide-right"] {
+.js-loaded [data-animate="slide-right"] {
   transform: translateX(24px);
 }
 
-[data-animate="scale-in"] {
+.js-loaded [data-animate="scale-in"] {
   transform: scale(0.95);
 }
 
@@ -1377,7 +1382,7 @@ small {
 }
 
 /* Stagger children */
-[data-animate-stagger] > * {
+.js-loaded [data-animate-stagger] > * {
   opacity: 0;
   transform: translateY(16px);
   transition: opacity var(--transition), transform var(--transition);

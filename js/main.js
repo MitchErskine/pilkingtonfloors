@@ -178,6 +178,7 @@ export function initFAQAccordion() {
    ============================================================ */
 
 document.addEventListener('DOMContentLoaded', function () {
+  document.documentElement.classList.add('js-loaded');
   initStickyHeader();
   initScrollAnimations();
   initFAQAccordion();
