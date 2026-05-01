@@ -1,0 +1,9 @@
+.kiro/
+.vscode/
+.DS_Store
+node_modules/
+package.json
+package-lock.json
+vitest.config.js
+tests/
+feedback
